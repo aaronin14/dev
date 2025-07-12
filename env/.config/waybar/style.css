@@ -4,11 +4,20 @@
     font-family: "Mononoki Nerd Font";
     font-size: 18px;
     min-height: 0;
-    color: rgb(196, 178, 138);
+    color: rgb(235, 219, 178);
 }
 
 window#waybar {
+    margin-top: 0;
     background: transparent;
+    border: none;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    margin: 2px;
+    background: rgba(40, 40, 40, 0.9);
 }
 
 #window {
@@ -16,19 +25,16 @@ window#waybar {
     font-family: "Mononoki";
     margin: 0 2px;
     padding: 2px 5px;
-    background: rgba(24, 22, 22, 0.9);
-    border: 2px solid rgba(196, 178, 138, 0.9);
 }
+
 window#waybar.empty #window {
     background: none;
     border: none;
 }
 
 #workspaces {
-    padding: 2px 5px 2px 3px ;
+    padding: 2px 5px 2px 3px;
     margin: 0 2px;
-    background: rgba(24, 22, 22, 0.9);
-    border: 2px solid rgba(196, 178, 138, 0.9);
 }
 
 #workspaces button {
@@ -37,7 +43,7 @@ window#waybar.empty #window {
 }
 
 #workspaces button.active {
-    background: rgba(197, 201, 197, 0.4);
+    background: rgba(215, 153, 33, 0.5);
 }
 
 #workspaces button:hover {
@@ -45,31 +51,36 @@ window#waybar.empty #window {
     background: rgba(197, 201, 197, 0.2);
 }
 
-#clock, #battery, #cpu, #memory, #temperature, #network, #pulseaudio, #custom-power, #custom-bluetooth, #tray {
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#custom-power,
+#custom-bluetooth,
+#tray {
     padding: 2px 8px;
     margin: 0 2px;
-    background: rgba(24, 22, 22, 0.9);
-    border: 2px solid rgba(196, 178, 138, 0.9);
 }
 
 #clock {
     font-weight: bold;
 }
 
-#battery {
-}
+#battery {}
 
 #battery icon {
-    color: rgb(228, 104, 118);
+    color: rgb(204, 36, 29);
 }
 
-#battery.charging {
-}
+#battery.charging {}
 
 @keyframes blink {
     to {
-        background-color: rgb(197, 201, 197);
-        color: rgb(24, 22, 22);
+        background-color: rgb(146, 131, 116);
+        color: rgb(40, 40, 40);
     }
 }
 
@@ -82,27 +93,21 @@ window#waybar.empty #window {
     animation-direction: alternate;
 }
 
-#cpu {
-}
+#cpu {}
 
-#memory {
-}
+#memory {}
 
-#network {
-}
+#network {}
 
 #network.disconnected {
-    background: rgba(228, 104, 118, 0.6);
+    background: rgba(204, 36, 29, 0.6);
 }
 
-#pulseaudio {
-}
+#pulseaudio {}
 
-#pulseaudio.muted {
-}
+#pulseaudio.muted {}
 
-#tray {
-}
+#tray {}
 
 #custom-power {
     padding-right: 12px;

@@ -17,5 +17,5 @@ offset = { x = 0, y = 4 }
 
 [general]
 import = [
-    "~/.config/alacritty/themes/kanagawa_dragon.toml",
+    "~/.config/alacritty/themes/gruvbox_dark.toml",
 ]
