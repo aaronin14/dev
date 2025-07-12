@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
-sudo pacman -S --needed --noconfirm ttf-mononoki-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-font-awesome noto-fonts-cjk
+sudo pacman -S --needed --noconfirm ttf-mononoki-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols
+sudo pacman -S --needed --noconfirm ttf-font-awesome noto-fonts-cjk noto-fonts-emoji
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-kr-fonts adobe-source-han-serif-kr-fonts
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
