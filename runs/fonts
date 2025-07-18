@@ -1,12 +1,24 @@
 #!/usr/bin/bash
-
-sudo pacman -S --needed --noconfirm ttf-mononoki-nerd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-font-awesome noto-fonts-cjk
-sudo pacman -S --needed --noconfirm adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts
-sudo pacman -S --needed --noconfirm adobe-source-han-sans-kr-fonts adobe-source-han-serif-kr-fonts
-sudo pacman -S --needed --noconfirm adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+set -e
 
 sudo apt install fonts-noto fonts-noto-cjk fonts-noto-color-emoji
+
+mkdir -p ~/.local/share/fonts
 
 curl -Lo CascadiaCode.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaCode.zip
 curl -Lo Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip
 curl -Lo Mononoki.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip
+curl -Lo JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
+
+echo "Complete dowloading all the nerd fonts"
+
+unzip -o CascadiaCode.zip -d ~/.local/share/fonts/CascadiaCoveNF
+unzip -o Hack.zip -d ~/.local/share/fonts/HackNF
+unzip -o Mononoki.zip -d ~/.local/share/fonts/MononokiNF
+unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonoNF
+
+echo "Complete unzipping all the nerd fonts"
+
+rm CascadiaCode.zip Hack.zip Mononoki.zip JetBrainsMono.zip
+
+echo "Complete remove all the zip files"

@@ -1,7 +1,0 @@
-#!/usr/bin/bash
-
-sudo pacman -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
-
-# or https://github.com/Keyitdev/sddm-astronaut-theme?tab=readme-ov-file#manual-installation

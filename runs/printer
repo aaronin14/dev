@@ -1,7 +1,0 @@
-#!/usr/bin/bash
-
-sudo pacman -S --needed --noconfirm cups system-config-printer simple-scan
-
-sudo systemctl enable --now cups
-
-paru -S cnijfilter2-mg360

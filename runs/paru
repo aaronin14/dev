@@ -1,8 +1,0 @@
-#!/usr/bin/bash
-
-sudo pacman -S --needed base-devel
-mkdir -p $HOME/.local/src
-cd $HOME/.local/src
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
