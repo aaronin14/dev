@@ -4,3 +4,9 @@ sudo pacman -S --needed --noconfirm ttf-mononoki-nerd ttf-jetbrains-mono-nerd tt
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-kr-fonts adobe-source-han-serif-kr-fonts
 sudo pacman -S --needed --noconfirm adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts
+
+sudo apt install fonts-noto fonts-noto-cjk fonts-noto-color-emoji
+
+curl -Lo CascadiaCode.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaCode.zip
+curl -Lo Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip
+curl -Lo Mononoki.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip

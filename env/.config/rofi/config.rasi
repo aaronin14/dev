@@ -1,9 +1,0 @@
-configuration {
-  icon-theme: "gruvbox-dark-icons-gtk";
-  kb-accept-entry: "Return,KP_Enter";
-  kb-remove-to-eol: "";
-  kb-row-down: "Control-j";
-  kb-row-up: "Control-k";
-}
-
-@theme "kanagawa_dragon"
