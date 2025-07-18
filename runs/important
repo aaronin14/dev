@@ -1,12 +1,8 @@
 #!/usr/bin/bash
+set -e
 
-sudo pacman -Syu
-sudo pacman -S --needed --noconfirm alacritty git neovim vi tmux obsidian firefox thunderbird
-sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland qt5-wayland qt6-wayland
-sudo pacman -S --needed --noconfirm dunst dolphin rofi-wayland polkit-kde-agent grim slurp hyprpaper hyprlock pavucontrol
+sudo apt update
+sudo apt upgrade -y
 
-sudo pacman -S --needed --noconfirm go fzf fastfetch brightnessctl wl-clipboard cronie
-sudo pacman -S --needed --noconfirm gimp obs-studio vlc feh libreoffice-fress
-sudo pacman -S --needed --noconfirm bluez blueman
-
-paru -S wlogout
+sudo apt install git tmux curl cron
+sudo apt install gimp obs-studio vlc 

@@ -1,5 +1,15 @@
 #!/usr/bin/bash
+set -e
 
-sudo pacman -S --noconfirm --needed neovim luarocks lua51 nodejs npm fd ripgrep
+sudo apt install fd-find fzf ripgrep nodejs npm lua5.1 luarocks
+sudo apt install ninja-build gettext cmake curl build-essential
+
+git clone https://github.com/neovim/neovim ~/.local/src/neovim
+cd ~/.local/src/neovim
+git checkout stable
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+
+cd ~/personal/dev
 
 git clone git@github.com:aaronin14/nvim-config $HOME/personal/dev/env/.config/nvim
