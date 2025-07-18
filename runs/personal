@@ -3,8 +3,3 @@
 mkdir -p $HOME/personal/
 git clone git@github.com:aaronin14/second-brain $HOME/personal/second-brain
 git clone git@github.com:aaronin14/wallpapers $HOME/personal/wallpapers
-
-sudo pacman -S --needed --noconfirm cronie
-sudo systemctl enable cronie.service
-export EDITOR=nvim
-crontab -e
