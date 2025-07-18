@@ -3,3 +3,9 @@
 mkdir -p $HOME/personal/
 git clone git@github.com:aaronin14/second-brain $HOME/personal/second-brain
 git clone git@github.com:aaronin14/wallpapers $HOME/personal/wallpapers
+git clone git@github.com:aaronin14/neo-thm $HOME/personal/neo-thm
+git clone git@github.com:aaronin14/practice-python $HOME/personal/practice-python
+git clone git@github.com:aaronin14/bbh $HOME/work/bbh
+
+firefox https://ticktick.com/download
+firefox https://obsidian.md/download

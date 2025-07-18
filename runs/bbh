@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+set -e
+
+sudo apt install curl nmap
+
+echo "Do you want to install BurpSuite"
+
+choices=("yes" "no")
+select choice in "${choices[@]}";
+do
+    case $choice in
+        yes)
+            firefox https://portswigger.net/burp/communitydownload
+            break
+            ;;
+        no)
+            break
+            ;;
+        *)
+            echo "invalid option"
+            ;;
+    esac
+done
+
+if [[ -z "go version" ]];
+then
+    echo "It looks like go is not installed. Follows this instruction to install go"
+    firefox https://go.dev/doc/install
+else
+    echo "Go is installed. Installing Gobuster"
+    go install github.com/OJ/gobuster/v3@latest
+fi

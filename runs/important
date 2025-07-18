@@ -4,5 +4,5 @@ set -e
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install git tmux curl cron
-sudo apt install gimp obs-studio vlc 
+sudo apt install git tmux cron
+sudo apt install gimp obs-studio vlc
