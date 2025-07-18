@@ -1,8 +1,5 @@
 #!/usr/bin/bash
 
-sudo pacman -S --needed zsh
-chsh -s $(which zsh)
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
