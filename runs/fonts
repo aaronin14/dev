@@ -21,4 +21,8 @@ echo "Complete unzipping all the nerd fonts"
 
 rm CascadiaCode.zip Hack.zip Mononoki.zip JetBrainsMono.zip
 
-echo "Complete remove all the zip files"
+echo "Complete removing all the zip files"
+
+fc-cache -fv
+
+echo "Complete updating fonts cache"
