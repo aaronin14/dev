@@ -3,25 +3,11 @@ set -e
 
 sudo apt install curl nmap
 
-echo "Do you want to install BurpSuite"
+# Installing Proxy
+firefox https://portswigger.net/burp/communitydownload
+firefox https://caido.io/download
 
-choices=("yes" "no")
-select choice in "${choices[@]}";
-do
-    case $choice in
-        yes)
-            firefox https://portswigger.net/burp/communitydownload
-            break
-            ;;
-        no)
-            break
-            ;;
-        *)
-            echo "invalid option"
-            ;;
-    esac
-done
-
+# Installing Go and Gobuster
 if [[ -z "go version" ]];
 then
     echo "It looks like go is not installed. Follows this instruction to install go"
