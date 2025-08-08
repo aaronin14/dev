@@ -9,6 +9,7 @@ curl -Lo CascadiaCode.zip https://github.com/ryanoasis/nerd-fonts/releases/downl
 curl -Lo Hack.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Hack.zip
 curl -Lo Mononoki.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Mononoki.zip
 curl -Lo JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip
+curl -Lo RobotoMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/RobotoMono.zip
 
 echo "Complete dowloading all the nerd fonts"
 
@@ -16,10 +17,11 @@ unzip -o CascadiaCode.zip -d ~/.local/share/fonts/CascadiaCoveNF
 unzip -o Hack.zip -d ~/.local/share/fonts/HackNF
 unzip -o Mononoki.zip -d ~/.local/share/fonts/MononokiNF
 unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonoNF
+unzip -o RobotoMono.zip -d ~/.local/share/fonts/RobotoMonoNF
 
 echo "Complete unzipping all the nerd fonts"
 
-rm CascadiaCode.zip Hack.zip Mononoki.zip JetBrainsMono.zip
+rm CascadiaCode.zip Hack.zip Mononoki.zip JetBrainsMono.zip RobotoMono.zip
 
 echo "Complete removing all the zip files"
 
