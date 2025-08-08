@@ -110,6 +110,6 @@
     "custom/power": {
         "format" : "⏻",
 		"tooltip": false,
-		"on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/scripts/rofi-power-menu -config ~/.config/rofi/themes/power_menu-kanagawa_dragon.rasi"
+		"on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/scripts/rofi-power-menu -config ~/.config/rofi/themes/power_menu-gruvbox_dark.rasi"
     },
 }
