@@ -1,7 +1,7 @@
 * {
     border: 0;
     border-radius: 5;
-    font-family: "Mononoki Nerd Font";
+    font-family: "RobotoMono Nerd Font";
     font-size: 18px;
     min-height: 0;
     color: rgb(235, 219, 178);
@@ -22,7 +22,7 @@ window#waybar {
 
 #window {
     font-weight: bold;
-    font-family: "Mononoki";
+    font-family: "RobotoMono Nerd Font";
     margin: 0 2px;
     padding: 2px 5px;
 }
