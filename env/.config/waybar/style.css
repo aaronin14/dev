@@ -9,7 +9,8 @@
 
 window#waybar {
     margin-top: 0;
-    background: transparent;
+    /* background: transparent; */
+    background: rgba(40, 40, 40, 0.5);
     border: none;
 }
 
@@ -17,7 +18,6 @@ window#waybar {
 .modules-center,
 .modules-right {
     margin: 2px;
-    background: rgba(40, 40, 40, 0.9);
 }
 
 #window {
@@ -43,7 +43,7 @@ window#waybar.empty #window {
 }
 
 #workspaces button.active {
-    background: rgba(215, 153, 33, 0.5);
+    color: rgba(215, 153, 33, 0.5);
 }
 
 #workspaces button:hover {
