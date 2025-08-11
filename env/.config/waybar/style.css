@@ -1,17 +1,17 @@
 * {
     border: 0;
-    border-radius: 5;
+    /* border-radius: 5; */
     font-family: "RobotoMono Nerd Font";
-    font-size: 18px;
+    font-size: 16px;
     min-height: 0;
     color: rgb(235, 219, 178);
 }
 
 window#waybar {
-    margin-top: 0;
     /* background: transparent; */
+    padding-bottom: 4px;
     background: rgba(40, 40, 40, 0.5);
-    border: 2px solid rgba(152, 151, 26, 0.3);
+    border-bottom: 3px solid rgba(152, 151, 26, 0.3);
 }
 
 .modules-left,
@@ -44,6 +44,8 @@ window#waybar.empty #window {
 
 #workspaces button.active {
     color: rgba(215, 153, 33, 0.5);
+    background: transparent;
+;
 }
 
 #workspaces button:hover {
