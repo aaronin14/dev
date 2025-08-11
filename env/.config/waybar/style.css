@@ -42,8 +42,8 @@ window#waybar.empty #window {
     background: transparent;
 }
 
-#workspaces button.active {
-    color: rgba(215, 153, 33, 0.5);
+#workspaces button:active {
+    color: rgba(152, 151, 26, 0.3);
     background: transparent;
 ;
 }
