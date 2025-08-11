@@ -11,7 +11,7 @@ window#waybar {
     margin-top: 0;
     /* background: transparent; */
     background: rgba(40, 40, 40, 0.5);
-    border: none;
+    border: 2px solid rgba(152, 151, 26, 0.3);
 }
 
 .modules-left,
