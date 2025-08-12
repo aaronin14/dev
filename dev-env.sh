@@ -68,5 +68,3 @@ copy $DEV_ENV/env/.zsh_profile $HOME/.zsh_profile
 copy $DEV_ENV/env/.tmux.conf $HOME/.tmux.conf
 copy $DEV_ENV/env/.tmux-cht-command $HOME/.tmux-cht-command
 copy $DEV_ENV/env/.tmux-cht-languages $HOME/.tmux-cht-languages
-
-hyprctl reload
