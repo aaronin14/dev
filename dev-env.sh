@@ -72,4 +72,4 @@ copy $DEV_ENV/env/.tmux-cht-languages $HOME/.tmux-cht-languages
 
 hyprctl reload
 
-sudo cp $DEV_ENV/env/sddm.conf /etc/sddm.conf
+# sudo cp $DEV_ENV/env/sddm.conf /etc/sddm.conf

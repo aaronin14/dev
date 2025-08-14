@@ -6,3 +6,5 @@ cd $HOME/.local/src
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
+
+paru -Syu ticktick
