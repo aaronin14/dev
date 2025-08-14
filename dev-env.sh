@@ -63,6 +63,7 @@ copy() {
 update_files $DEV_ENV/env/.config $XDG_CONFIG_HOME
 update_files $DEV_ENV/env/.local $HOME/.local
 
+copy $DEV_ENV/env/.gitconfig $HOME/.gitconfig
 copy $DEV_ENV/env/.zshrc $HOME/.zshrc
 copy $DEV_ENV/env/.zsh_profile $HOME/.zsh_profile
 copy $DEV_ENV/env/.tmux.conf $HOME/.tmux.conf
