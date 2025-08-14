@@ -3,7 +3,7 @@
 sudo pacman -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
 
 git clone https://github.com/stepanzubkov/where-is-my-sddm-theme $HOME/.local/src/where-is-my-sddm-theme
-sudo cp -r $HOME/.local/src/where-is-my-sddm-theme /usr/share/sddm/themes
+sudo cp -r $HOME/.local/src/where-is-my-sddm-theme/where-is-my-sddm-theme /usr/share/sddm/themes
 
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
 
