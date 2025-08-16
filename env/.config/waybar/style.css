@@ -1,56 +1,36 @@
 * {
-    border: 0;
-    /* border-radius: 5; */
     font-family: "RobotoMono Nerd Font";
     font-size: 16px;
     min-height: 0;
-    color: rgb(235, 219, 178);
+    border: 0;
 }
 
-window#waybar {
-    /* background: transparent; */
-    padding-bottom: 4px;
+#waybar {
     background: rgba(40, 40, 40, 0.5);
     border-bottom: 3px solid rgba(152, 151, 26, 0.3);
 }
 
-.modules-left,
-.modules-center,
-.modules-right {
-    margin: 2px;
-}
-
-#window {
-    font-weight: bold;
-    font-family: "RobotoMono Nerd Font";
-    margin: 0 2px;
-    padding: 2px 5px;
-}
-
-window#waybar.empty #window {
-    background: none;
-    border: none;
-}
-
 #workspaces {
-    padding: 2px 5px 2px 3px;
-    margin: 0 2px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 #workspaces button {
-    padding: 1px 8px 1px 2px;
-    background: transparent;
+    color: rgb(235, 219, 178);
+    border-radius: 5px;
+    padding: 3px;
 }
 
-#workspaces button:active {
-    color: rgba(152, 151, 26, 0.3);
-    background: transparent;
-;
+#workspaces button.active {
+    background: rgba(152, 151, 26, 0.3);
+    border-radius: 5px;
+    padding: 3px;
 }
 
 #workspaces button:hover {
-    border: none;
     background: rgba(197, 201, 197, 0.2);
+    border-radius: 5px;
+    padding: 3px;
 }
 
 #clock,
@@ -63,8 +43,8 @@ window#waybar.empty #window {
 #custom-power,
 #custom-bluetooth,
 #tray {
-    padding: 2px 8px;
-    margin: 0 2px;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 #clock {
@@ -88,11 +68,6 @@ window#waybar.empty #window {
 
 #battery.warning:not(.charging) {
     color: rgb(196, 116, 110);
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 #cpu {}
