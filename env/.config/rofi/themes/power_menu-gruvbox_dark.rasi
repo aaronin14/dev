@@ -1,22 +1,26 @@
 * {
-  background : #282828;
+  // background : #282828;
+  background : #282828b3;
   foreground : #ebdbb2;
 
   black :   #282828;
-  red :     #cc241d;
-  green :   #98971a;
+  // red :     #cc241d;
+  red :     #cc241d9d;
+  // green :   #98971a;
+  green :   #98971a4d;
   yellow :  #d79921;
   blue :    #458588;
   magenta : #b16286;
   cyan :    #689d6a;
   white :   #a89984;
 
-  black-bright : #928374;
+  // black-bright : #928374;
+  black-bright : #928374b3;
   white-bright : #ebdbb2;
 
   /* Default background color */
   background-color: transparent;
-  font: "Mononoki Nerd Font 12";
+  font: "RobotoMono Nerd Font 12";
   border: 0;
   margin: 0;
   padding: 0;
@@ -59,27 +63,19 @@ listview {
 }
 
 element {
-  background: @black;
-  children: [ element-icon, element-text ];
-}
-
-element,element-text,element-icon, button {
     cursor: pointer;
-}
-
-element {
     border:  0px;
     border-radius: 8px;
     padding: 3px;
     border-color: @background;
     background-color: @background;
     vertical-align: 0.5;
+    children: [ element-text ];
 }
 
 element-text {
-    background-color: @black-bright;
     text-color:       @black;
-    font: "Mononoki Nerd Font 13";
+    font: "RobotoMono Nerd Font 13";
     margin:   0px 0px;
     vertical-align: 0.5;
 }
@@ -93,13 +89,13 @@ element.normal.urgent {
     text-color:       @black;
 }
 element.normal.active {
-    background-color: @yellow;
+    background-color: @green;
     text-color:       @black;
 }
 
 element.selected.normal {
-    background-color: @yellow;
-    border-color: @yellow;
+    background-color: @green;
+    border-color: @green;
     text-color: @black;
 }
 element.selected.urgent {
@@ -108,8 +104,8 @@ element.selected.urgent {
     text-color: @black;
 }
 element.selected.active {
-    background-color: @yellow;
-    border-color: @yellow;
+    background-color: @green;
+    border-color: @green;
     text-color: @black;
 }
 
@@ -119,25 +115,22 @@ element.alternate.normal {
 }
 element.alternate.urgent {
     background-color: @black-bright;
-    text-color: @yellow;
+    text-color: @green;
 }
 element.alternate.active {
     background-color: @black-bright;
-    text-color: @yellow;
+    text-color: @green;
 }
 
 element-text.selected.normal {
-    background-color: @yellow;
-    border-color: @yellow;
+    border-color: @green;
     text-color: @black;
 }
 element-text.selected.urgent {
-    background-color: @red;
     border-color: @red;
     text-color: @black;
 }
 element-text.selected.active {
-    background-color: @yellow;
-    border-color: @yellow;
+    border-color: @green;
     text-color: @black;
 }
