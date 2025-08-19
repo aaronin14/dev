@@ -22,7 +22,7 @@
         "format": "{name}: {icon} ",
         "format-icons": {
             "default": "",
-            "active": "",
+            "active": ""
         },
     },
 
