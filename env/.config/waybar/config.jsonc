@@ -94,7 +94,7 @@
     // For Vertical Monitor
     "layer": "top",
     "position": "top",
-    "output": "HDMI-A-2",
+    "output": ["HDMI-A-1", "HDMI-A-2"],
     "modules-left": [
         "hyprland/workspaces",
     ],
