@@ -17,5 +17,5 @@ offset = { x = 0, y = 4 }
 
 [general]
 import = [
-    "~/.config/alacritty/themes/gruvbox_dark.toml",
+    "~/.config/alacritty/themes/rose-pine.toml",
 ]
