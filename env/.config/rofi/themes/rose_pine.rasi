@@ -39,7 +39,7 @@ window {
     height: 40%;
     location: center;
     border: 2px solid;
-    border-color: @magenta;
+    border-color: @yellow;
     border-radius: 8px;
 }
 
@@ -68,7 +68,7 @@ inputbox {
 prompt {
     padding: 2px 6px 2px 2px;
     expand: false;
-    text-color: @magenta;
+    text-color: @yellow;
 }
 
 entry {
@@ -76,7 +76,7 @@ entry {
     placeholder-color: @black-bright;
     expand: true;
     padding: 3px 0;
-    text-color: @magenta;
+    text-color: @yellow;
     border-radius: 8px;
 }
 
@@ -106,7 +106,7 @@ element {
 
 element selected {
     text-color: @foreground;
-    background-color: @magenta;
+    background-color: @yellow;
     border-radius: 8px;
 }
 
