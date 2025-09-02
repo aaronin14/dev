@@ -6,8 +6,8 @@
 }
 
 #waybar {
-    background: alpha(#191724, 0.5);
-    border-bottom: 3px solid  alpha(#cecacd, 0.4);
+    background: alpha(#1a1b26, 1.0);
+    border-bottom: 3px solid  alpha(#7aa2f7, 1.0);
 }
 
 #workspaces {
@@ -16,19 +16,21 @@
 }
 
 #workspaces button {
-    color: #e0def4;
+    color: #c0caf5;
     border-radius: 5px;
     padding: 3px;
+    margin-right: 5px;
 }
 
 #workspaces button.active {
-    background: alpha(#ebbcba, 0.3);
+    color: alpha(#15161e, 1.0);
+    background: alpha(#7aa2f7, 1.0);
     border-radius: 5px;
     padding: 3px;
 }
 
 #workspaces button:hover {
-    background: alpha(#524f67, 0.2);
+    background: alpha(#414868, 1.0);
     border-radius: 5px;
     padding: 3px;
 }
@@ -43,7 +45,7 @@
 #custom-power,
 #custom-bluetooth,
 #tray {
-    color: #e0def4;
+    color: #c0caf5;
     border-radius: 5px;
     padding: 3px;
 }
@@ -54,11 +56,11 @@
 
 #battery {}
 #battery icon {
-    color: #eb6f92;
+    color: #f7768e;
 }
 #battery.charging {}
 #battery.warning:not(.charging) {
-    color: #f6c177;
+    color: #e0af68;
 }
 
 #cpu {}
@@ -67,7 +69,7 @@
 
 #network {}
 #network.disconnected {
-    background: alpha(#eb6f92, 0.6);
+    background: alpha(#f7768e, 1.0);
 }
 
 #pulseaudio {}
