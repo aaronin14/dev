@@ -1,9 +1,18 @@
 configuration {
-  icon-theme: "arc-icon-theme";
+  modi: "drun,window,run";
+  display-drun: "";
+  display-run: "";
+  display-window: "󰑣";
+
+  show-icons: true;
+  icon-theme: "Arc-ICONS";
+  fixed-num-lines: true;
+
+  hover-select: false;
   kb-accept-entry: "Return,KP_Enter";
   kb-remove-to-eol: "";
   kb-row-down: "Control-j";
   kb-row-up: "Control-k";
 }
 
-@theme "rose_pine"
+@theme "tokyonight"
