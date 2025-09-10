@@ -15,4 +15,4 @@ configuration {
   kb-row-up: "Control-k";
 }
 
-@theme "tokyonight_night"
+@theme "everforest"

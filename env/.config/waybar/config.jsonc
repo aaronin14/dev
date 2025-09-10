@@ -20,7 +20,8 @@
         "disable-scroll": true,
         "all-outputs": false,
         "warp-on-scroll": false,
-        "format": "{name}: {icon} ",
+        "format": " {name} ",
+        // "format": "{name}: {icon} ",
         "format-icons": {
             "default": "",
             "active": ""
@@ -97,8 +98,10 @@
 		"on-click": "blueberry"
     },
     "custom/power": {
-        "format" : "⏻",
+        "format" : " ⏻ ",
 		"tooltip": false,
-		"on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/scripts/rofi-power-menu -config ~/.config/rofi/themes/power_menu-gruvbox_dark.rasi"
+		"on-click": "rofi -show powermenu -modi powermenu:~/.config/rofi/scripts/rofi-power-menu -config ~/.config/rofi/themes/power_menu-everforest.rasi"
     }
 }
+entry {
+

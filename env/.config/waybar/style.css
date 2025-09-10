@@ -1,38 +1,34 @@
 * {
     font-family: "RobotoMono Nerd Font";
-    font-size: 16px;
+    font-size: 14px;
     min-height: 0;
     border: 0;
 }
 
 #waybar {
-    background: alpha(#1a1b26, 1.0);
-    border-bottom: 3px solid  alpha(#7aa2f7, 1.0);
+    background: alpha(#2d353b, 0.3);
 }
 
 #workspaces {
     border-radius: 5px;
-    margin: 5px;
+    margin: 2px;
 }
 
 #workspaces button {
-    color: #c0caf5;
+    color: alpha(#d3c6aa, 0.8);
     border-radius: 5px;
     padding: 3px;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: alpha(#15161e, 1.0);
-    background: alpha(#7aa2f7, 1.0);
-    border-radius: 5px;
-    padding: 3px;
+    color: alpha(#475258, 0.8);
+    background: alpha(#a7c080, 0.8);
 }
 
 #workspaces button:hover {
-    background: alpha(#414868, 1.0);
-    border-radius: 5px;
-    padding: 3px;
+    background: alpha(#d3c6aa, 0.8);
+    color: alpha(#475258, 0.8);
 }
 
 #clock,
@@ -45,9 +41,10 @@
 #custom-power,
 #custom-bluetooth,
 #tray {
-    color: #c0caf5;
+    color: alpha(#d3c6aa, 0.8);
     border-radius: 5px;
     padding: 3px;
+    margin: 2px;
 }
 
 #clock {
@@ -56,11 +53,11 @@
 
 #battery {}
 #battery icon {
-    color: #f7768e;
+    color: #e67e80;
 }
 #battery.charging {}
 #battery.warning:not(.charging) {
-    color: #e0af68;
+    color: #dbbc7f;
 }
 
 #cpu {}
@@ -69,7 +66,7 @@
 
 #network {}
 #network.disconnected {
-    background: alpha(#f7768e, 1.0);
+    background: alpha(#e67e80, 0.8);
 }
 
 #pulseaudio {}

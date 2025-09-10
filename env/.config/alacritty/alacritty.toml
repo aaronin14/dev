@@ -17,5 +17,5 @@ offset = { x = 0, y = 4 }
 
 [general]
 import = [
-    "~/.config/alacritty/themes/tokyonight_night.toml",
+    "~/.config/alacritty/themes/themes/everforest_dark.toml",
 ]
