@@ -6,7 +6,9 @@
 }
 
 #waybar {
-    background: alpha(#2d353b, 0.3);
+    background: alpha(#2d353b, 0.8);
+    border-radius: 5px;
+    border-bottom: 3px solid alpha(#a7c080, 0.8);
 }
 
 #workspaces {
