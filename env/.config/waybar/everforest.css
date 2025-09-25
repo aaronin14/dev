@@ -1,0 +1,14 @@
+@define-color fg #d3c6aa;
+@define-color fgA alpha(#d3c6aa, 1.0);
+
+@define-color bg #2d353b;
+@define-color bgA alpha(#2d353b, 1.0);
+
+@define-color border #a7c080;
+@define-color borderA alpha(#a7c080, 1.0);
+
+@define-color warning #dbbc7f;
+@define-color warningA alpha(#dbbc7f, 1.0);
+
+@define-color error #e67e80;
+@define-color errorA alpha(#e67e80, 1.0);

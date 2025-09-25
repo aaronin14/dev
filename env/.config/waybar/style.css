@@ -1,3 +1,5 @@
+@import 'everforest.css';
+
 * {
     font-family: "RobotoMono Nerd Font";
     font-size: 14px;
@@ -6,9 +8,9 @@
 }
 
 #waybar {
-    background: alpha(#2d353b, 0.8);
+    background: @bg;
     border-radius: 5px;
-    border-bottom: 3px solid alpha(#a7c080, 0.8);
+    /* border-bottom: 3px solid @border; */
 }
 
 #workspaces {
@@ -17,20 +19,20 @@
 }
 
 #workspaces button {
-    color: alpha(#d3c6aa, 0.8);
+    color: @fg;
     border-radius: 5px;
     padding: 3px;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: alpha(#475258, 0.8);
-    background: alpha(#a7c080, 0.8);
+    color: @bg;
+    background: @border;
 }
 
 #workspaces button:hover {
-    background: alpha(#d3c6aa, 0.8);
-    color: alpha(#475258, 0.8);
+    background: @fg;
+    color: @bg;
 }
 
 #clock,
@@ -43,7 +45,7 @@
 #custom-power,
 #custom-bluetooth,
 #tray {
-    color: alpha(#d3c6aa, 0.8);
+    color: @fg;
     border-radius: 5px;
     padding: 3px;
     margin: 2px;
@@ -55,11 +57,11 @@
 
 #battery {}
 #battery icon {
-    color: #e67e80;
+    color: @error;
 }
 #battery.charging {}
 #battery.warning:not(.charging) {
-    color: #dbbc7f;
+    color: @warning;
 }
 
 #cpu {}
@@ -68,7 +70,7 @@
 
 #network {}
 #network.disconnected {
-    background: alpha(#e67e80, 0.8);
+    background: @error;
 }
 
 #pulseaudio {}
