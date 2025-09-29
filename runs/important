@@ -2,8 +2,8 @@
 
 sudo pacman -Syu
 sudo pacman -S --needed --noconfirm alacritty git neovim vi tmux obsidian firefox pavucontrol
-# sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland qt5-wayland qt6-waylanddunst dolphin rofi polkit-kde-agent grim slurp hyprpaper hyprlock
-sudo pacman -S --needed --noconfirm  
+# sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland dunst dolphin rofi polkit-kde-agent grim slurp hyprpaper hyprlock
+sudo pacman -S --needed --noconfirm qt5-wayland qt6-wayland
 
 sudo pacman -S --needed --noconfirm go fzf fastfetch brightnessctl wl-clipboard cronie kanshi
 sudo pacman -S --needed --noconfirm gimp obs-studio vlc vlc-plugin-ffmpeg feh libreoffice-fresh kcal ffmpeg ncspot
