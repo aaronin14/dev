@@ -12,6 +12,9 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 # Where should I put you?
 bindkey -s ^f "tmux-sessionizer\n"
 
+# Aliases
+alias curlj='curl --header "Content-Type: application/json"'
+
 # Simple Pomodoro Timer CLI
 function pomo() {
     arg1=$1

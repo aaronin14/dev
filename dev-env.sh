@@ -71,5 +71,7 @@ copy $DEV_ENV/env/.tmux-cht-command $HOME/.tmux-cht-command
 copy $DEV_ENV/env/.tmux-cht-languages $HOME/.tmux-cht-languages
 
 hyprctl reload
+pkill waybar
+waybar &
 
 # sudo cp $DEV_ENV/env/sddm.conf /etc/sddm.conf
