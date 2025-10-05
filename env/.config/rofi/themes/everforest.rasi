@@ -22,7 +22,7 @@
 
     /* Default background color */
     background-color: transparent;
-    font: "RobotoMono Nerd Font 14";
+    font: "Hack Nerd Font 14";
     border: 0;
     margin: 0;
     padding: 0;
