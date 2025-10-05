@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-sudo pacman -S bluez blueman
+sudo pacman -S bluez blueman bluez-utils
 
 sudo systemctl enable bluetooth.service
