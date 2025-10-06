@@ -1,0 +1,9 @@
+sudo pacman -S --needed --noconfirm ibus
+
+git clone https://github.com/LotusInputEngine/ibus-lotus.git ~/.local/src/ibus-lotus
+
+cd ~/.local/src/ibus-lotus
+
+sudo make install
+
+ibus start
