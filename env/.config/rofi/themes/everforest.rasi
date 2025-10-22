@@ -30,12 +30,12 @@
 }
 
 window {
-    background-color: @green;
+    background-color: @background;
     width: 30%;
     location: center;
     border: 2px solid;
     border-color: @green;
-    border-radius: 8px;
+    border-radius: 2px;
 }
 
 mainbox {
@@ -44,7 +44,7 @@ mainbox {
 }
 
 inputbar {
-    background-color: @green;
+    background-color: @background;
     orientation: horizontal;
     children: [prompt, entry];
     spacing: 2px;
@@ -54,15 +54,15 @@ inputbar {
 prompt {
     padding: 4px 10px 4px 4px;
     expand: false;
-    text-color: @black;
+    text-color: @green;
 }
 
 entry {
     placeholder: "Search";
-    placeholder-color: @black-bright;
+    placeholder-color: @black;
     expand: true;
     padding: 4px;
-    text-color: @black;
+    text-color: @green;
 }
 
 error-message {
@@ -75,7 +75,7 @@ error-message {
 }
 
 listview {
-    border-radius: 8px;
+    border-radius: 2px;
     background-color: @background;
     columns: 1;
     lines: 10;
@@ -91,9 +91,9 @@ element {
 }
 
 element selected {
-    text-color: @foreground;
-    background-color: @white;
-    border-radius: 8px;
+    text-color: @black;
+    background-color: @green;
+    border-radius: 2px;
 }
 
 element-text {
@@ -111,7 +111,7 @@ element-text.selected {
 element-icon {
     size: 20px;
     padding: 2;
-    border-radius: 8;
+    border-radius: 2px;
     background-color: inherit;
 }
 

@@ -2,10 +2,15 @@
 
 sudo pacman -Syu
 sudo pacman -S --needed --noconfirm alacritty git neovim vi tmux obsidian firefox chromium wpa_supplicant
-sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland dunst rofi polkit-kde-agent grim slurp hyprpaper hyprlock
 sudo pacman -S --needed --noconfirm qt5-wayland qt6-wayland gwenview dolphin adw-gtk-theme qt5ct qt6ct kvantum breeze-icons
+# Hyprland
+sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland dunst rofi polkit-kde-agent grim slurp hyprpaper hyprlock
+# KDE Plasma
 # sudo pacman -S --needed --noconfirm plasma-desktop kde-system-meta kde-accessibility-meta
+# Niri
 # sudo pacman -S --needed --noconfirm niri waybar fuzzel swaylock swayidle swaybg xdg-desktop-portal-gnome
+# Qtile
+# sudo pacman -S --needed --noconfirm qtile dunst rofi flameshot nitrogen picom lxsession redshift
 
 sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol
 sudo pacman -S --needed --noconfirm go fzf fastfetch brightnessctl wl-clipboard cronie btop

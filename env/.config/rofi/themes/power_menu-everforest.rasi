@@ -30,12 +30,12 @@
 }
 
 window {
-    background-color: @green;
+    background-color: @background;
     width: 200px;
     location: center;
     border: 2px solid;
     border-color: @green;
-    border-radius: 8px;
+    border-radius: 2px;
     padding: 0;
 }
 
@@ -45,17 +45,17 @@ mainbox {
 }
 
 inputbar {
-    background-color: @green;
+    background-color: @background;
     children: [prompt];
     padding: 2px 4px;
 }
 
 prompt {
-    text-color: @black;
+    text-color: @green;
 }
 
 listview {
-    border-radius: 8px;
+    border-radius: 2px;
     border: 0px;
     background-color: @background;
     columns: 1;
@@ -67,7 +67,7 @@ listview {
 
 element {
     border: 0px;
-    border-radius: 8px;
+    border-radius: 2px;
     padding: 2px;
     cursor: pointer;
     children: [ element-text ];
@@ -86,10 +86,10 @@ element-text {
 }
 
 element.selected.normal {
-    background-color: @white;
+    background-color: @green;
     text-color: @black;
 }
 element-text.selected.normal {
-    background-color: @white;
+    background-color: @green;
     text-color: @black;
 }
