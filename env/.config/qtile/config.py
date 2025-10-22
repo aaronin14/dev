@@ -1,13 +1,3 @@
-#
-#                         ____             _       _ _  _
-#              __ _  __ _|  _ \ ___  _ __ (_)_ __ / | || |
-#             / _` |/ _` | |_) / _ \| '_ \| | '_ \| | || |_
-#            | (_| | (_| |  _ < (_) | | | | | | | | |__   _|
-#             \__,_|\__,_|_| \_\___/|_| |_|_|_| |_|_|  |_|
-#
-#   Personal Qtile configuration of aaRonin14 <aaron14nguyen@gmail.com>
-#  --------------------------------------------------------------------
-
 # Imports
 import os
 import subprocess
@@ -25,7 +15,6 @@ appLauncher = "rofi -show drun"
 noteTaking = "obsidian"
 ticktick = "ticktick"
 powerScript = f"rofi -show power-menu -modi power-menu:{home}/.config/rofi/scripts/rofi-power-menu -config {home}/.config/rofi/themes/power_menu-everforest.rasi"
-
 
 # Unminimize games
 @lazy.group.function
@@ -213,6 +202,9 @@ def init_widgets_list():
         widget.Volume(
             emoji=True,
             emoji_list=["󰝟 "," "," "," "],
+            foreground=colors["green"],
+        ),
+        widget.Battery(
             foreground=colors["green"],
         ),
         widget.Clock(
