@@ -214,9 +214,6 @@ def init_widgets_list():
                 "Button1": lazy.spawn(webBrowser + " https://calendar.google.com/u/0")
             },
         ),
-        widget.Spacer(
-            length=2,
-        ),
     ]
     return widgets_list
 
@@ -225,11 +222,11 @@ def init_widgets_screen1():
     return widgets_screen1
 def init_widgets_screen2():
     widgets_screen2 = init_widgets_list()
-    del widgets_screen2[3:-2]
+    del widgets_screen2[3:-1]
     return widgets_screen2
 def init_widgets_screen3():
     widgets_screen3 = init_widgets_list()
-    del widgets_screen3[3:-2]
+    del widgets_screen3[3:-1]
     return widgets_screen3
 
 def init_screens():

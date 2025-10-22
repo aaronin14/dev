@@ -10,7 +10,7 @@ sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland 
 # Niri
 # sudo pacman -S --needed --noconfirm niri waybar fuzzel swaylock swayidle swaybg xdg-desktop-portal-gnome
 # Qtile
-# sudo pacman -S --needed --noconfirm qtile dunst rofi flameshot nitrogen picom lxsession redshift
+# sudo pacman -S --needed --noconfirm qtile dunst rofi flameshot nitrogen picom lxsession redshift python-dbus-next alsa-utils
 
 sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol
 sudo pacman -S --needed --noconfirm go fzf fastfetch brightnessctl wl-clipboard cronie btop
