@@ -8,3 +8,4 @@ cd paru
 makepkg -si
 
 paru -Syu ticktick zen-browser-bin bitwarden-bin
+paru -S nwg-look

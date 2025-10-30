@@ -14,4 +14,4 @@ sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland 
 
 sudo pacman -S --needed --noconfirm pipewire pipewire-alsa pipewire-audio pipewire-pulse pavucontrol
 sudo pacman -S --needed --noconfirm go fzf fastfetch brightnessctl wl-clipboard cronie btop
-sudo pacman -S --needed --noconfirm gimp obs-studio vlc vlc-plugin-ffmpeg feh libreoffice-fresh kcal ffmpeg ncspot
+sudo pacman -S --needed --noconfirm gimp obs-studio vlc vlc-plugin-ffmpeg feh libreoffice-fresh kcal ffmpeg
