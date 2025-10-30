@@ -7,4 +7,4 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-paru -Syu ticktick
+paru -Syu ticktick zen-browser-bin bitwarden-bin
