@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
-sudo pacman -S --noconfirm --needed neovim luarocks lua51 nodejs npm fd ripgrep
+sudo pacman -S --noconfirm --needed neovim luarocks lua51 fd ripgrep
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+nvm install node
 
 git clone git@github.com:aaronin14/nvim-config $HOME/personal/dev/env/.config/nvim

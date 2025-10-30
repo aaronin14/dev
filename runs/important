@@ -2,7 +2,7 @@
 
 sudo pacman -Syu
 sudo pacman -S --needed --noconfirm alacritty git neovim vi tmux obsidian firefox chromium wpa_supplicant
-sudo pacman -S --needed --noconfirm qt5-wayland qt6-wayland gwenview dolphin adw-gtk-theme qt5ct qt6ct kvantum breeze-icons
+sudo pacman -S --needed --noconfirm qt5-wayland qt6-wayland gwenview dolphin adw-gtk-theme qt5ct qt6ct kvantum breeze-icons breeze
 # Hyprland
 sudo pacman -S --needed --noconfirm hyprland waybar xdg-desktop-portal-hyprland dunst rofi polkit-kde-agent grim slurp hyprpaper hyprlock
 # KDE Plasma
