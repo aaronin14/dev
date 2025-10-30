@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=IntelliJ IDEA Community Edition
-Exec=/home/aaron/.local/src/idea-IC-252.26830.84/bin/idea
-Icon=/home/aaron/.local/src/idea-IC-252.26830.84/bin/idea.png
-Comment=A custom application for demonstration
-Categories=Development;
-Terminal=false
