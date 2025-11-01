@@ -9,4 +9,5 @@
     cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
 [init]
     defaultBranch = master
-
+[core]
+	editor = nvim
